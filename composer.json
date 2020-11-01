@@ -1,0 +1,21 @@
+{
+    "name": "limboniatech/limbonia-wordpress",
+    "description": "This is the Limbonia WordPress helper library",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Lonnie Blansett",
+            "email": "lonnie@limbonia.tech"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "limboniatech/limbonia-loader": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Limbonia\\": "lib/"
+        }
+    }
+}
